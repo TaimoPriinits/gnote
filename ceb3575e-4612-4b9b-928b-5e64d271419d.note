@@ -1,0 +1,695 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>NUC terminal</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">NUC terminal
+
+➜  ~ history
+    1  sudo apt install-chromium
+    2  sudo mkdir <link:url>/usr/share/ca-certificate/extra</link:url>
+    3  cd certs
+    4  cp certs/EDFCorpRootCA.crt <link:url>/usr/local/share/ca-certificates/EDFCorpRootCA.crt</link:url>
+    5  sudo cp certs/EDFCorpRootCA.crt <link:url>/usr/local/share/ca-certificates/EDFCorpRootCA.crt</link:url>
+    6  sudo cp certs/EDFCorpSubCA.crt <link:url>/usr/local/share/ca-certificates/EDFCorpSubCA.crt</link:url>
+    7  update-ca-certificates
+    8  sudo update-ca-certificates
+    9  sudo apt install chromium browser
+   10  sudo apt install chromium-browser
+   11  cls
+   12  mkdir Dev
+   13  sudo apt install git
+   14  git clone --recursive <link:url>https://azuredevops.mil.intra/EDF/CYBCOM/_git/kolt-planning_ops</link:url>
+   15  cd kolt-planning_ops/
+   16  sudo apt install curl
+   17  curl <link:url>https://raw.githubusercontent.com/creationix/nvm/master/install.sh</link:url> | bash 
+   18  mkdir tooru-kernel_api
+   19  cd tooru-kernel_api/
+   20  lös
+   21  cp <link:url>~/Downloads/x86_64-unknown-linux-gnu.zip</link:url> ./
+   22  unzip x86_64-unknown-linux-gnu.zip 
+   23  rm x86_64-unknown-linux-gnu.zip 
+   24  mv kernel-api/* .
+   25  cd x86_64-unknown-linux-gnu/
+   26  cd kernel-api/
+   27  mv x86_64-unknown-linux-gnu/* ./
+   28  rm -r kernel-api/ x86_64-unknown-linux-gnu/ 
+   29  cp <link:url>~/Downloads/kernel-api</link:url> ./
+   30  chmod +x kernel-api 
+   31  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:kernel-api-s4-ffi/lib-dev ./kernel-api
+   32  vi config.yml
+   33  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:kernel-api-s4-ffi/lib-dev ./kernel-api -- ./config.yml
+   34  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH: ./kernel-api -- ./config.yml
+   35  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./ ./kernel-api -- ./config.yml
+   36  RUST_LOG=debug ./kernel-api -- ./config.yml
+   37  'ls
+   38  mkdir -p kernel-api-s4-ffi/lib-dev
+   39  cd kernel-api-s4-ffi/
+   40  mv kernel-api-s4-ffi/ s4-ffi
+   41  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:kernel-api-s4-ffi/lib-dev cargo run -- config.yml
+   42  mv *.so* s4-ffi/lib-dev/
+   43  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:kernel-api-s4-ffi/lib-dev ./kernelapi -- config.yml
+   44  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:kernel-api-s4-ffi/lib-dev ./kernel-api -- config.yml
+   45  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:s4-ffi/lib-dev ./kernel-api -- config.yml
+   46  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:s4-ffi/lib-dev/ ./kernel-api -- config.yml
+   47  mv kernel-api s4-ffi/lib-dev/
+   48  cd s4-ffi/
+   49  cd lib-dev/
+   50  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:s4-ffi/lib-dev/ ./kernel-api -- <link:url>~/Dev/tooru-kernel_api/config.yml</link:url>
+   51  RUST_LOG=debug LD_LIBRARY_PATH=$LD_LIBRARY_PATH:s4-ffi/lib-dev/ ./kernel-api -- <link:url>/home/taimo/Dev/tooru-kernel_api/config.yml</link:url>
+   52  sudo -i
+   53  sudo apt install zsh
+   54  echo $TERM
+   55  sudo apt install tooru-kernel-api
+   56  tooru-kernel-api
+   57  sudo apt install tooru-fcli
+   58  sudo apt install tooru-fci
+   59  zsh -version
+   60  zsh --version
+   61  chsh -s $(which zsh)
+   62  echo $BASH
+   63  mv <link:url>~/Downloads/lib-dev</link:url> <link:url>/etc/tooru/kernel-api</link:url>
+   64  sudo mv <link:url>~/Downloads/lib-dev</link:url> <link:url>/etc/tooru/kernel-api</link:url>
+   65  systemctl start tooru-kernel-api
+   66  systemctl start kernel-api
+   67  systemctl
+   68  systemctl --type=service
+   69  journalctl -u kernel-api.service
+   70  cd /etc/
+   71  java
+   72  sudo apt install openjdk-11-jre-headless
+   73  cd <link:url>/var/log/kolt</link:url>
+   74  cd <link:url>/var/log/</link:url>
+   75  mkdir kolt
+   76  sudo mkdir kolt
+   77  ls -la kolt
+   78  chmod kolt 755
+   79  sudo chmod kolt 755
+   80  touch kolt-log.json
+   81  sudo touch kolt-log.json
+   82  chmod 755 kolt-log.json 
+   83  sudo chmod 755 kolt-log.json 
+   84  sudo touch kolt-json.log
+   85  sudo chmod 755 kolt-json.log
+   86  chown taimo:taimo kolt
+   87  sudo chown taimo:taimo kolt
+   88  ls -la | grep kolt
+   89  rm kolt-*
+   90  sudo rm kolt-*
+   91  cat initial_account_details.txt 
+   92  mkdir kernel-api-s4-ffi
+   93  sudo mkdir kernel-api-s4-ffi
+   94  git --recursive <link:url>https://azuredevops.mil.intra/EDF/KVA/_git/tooru-ui</link:url>
+   95  git recursive <link:url>https://azuredevops.mil.intra/EDF/KVA/_git/tooru-ui</link:url>
+   96  git clone --recursive <link:url>https://azuredevops.mil.intra/EDF/KVA/_git/tooru-ui</link:url>
+   97  tooru-ui/
+   98  cd tooru-ui/
+   99  yarn run
+  100  yarn run dev-all
+  101  yarn build
+  102  plugin=all yarn dev-kolt
+  103  sudo apt-get install autoconf automake libtool curl make g++ unzip
+  104  sudo apt install protobuf-compiler
+  105  protoc
+  106  cod .
+  107  'code .
+  108  code .
+  109  plugin=dev-all yarn dev-kolt
+  110  plugin=dev yarn dev-kolt
+  111  cd pl
+  112  cd plugins/
+  113  nvm install 10
+  114  cat README.md 
+  115  
+  116  cd DEv
+  117  cd Dev/
+  118  sudo apt install vim
+  119  cd <link:url>/etc/kolt</link:url>
+  120  cd Dev/tooru-ui/
+  121  cd cypress
+  122  cd integration/
+  123  yarn cypress 
+  124  shutdown now
+  125  vi cypress.json 
+  126  git restore cypress
+  127  git restore cypress.json
+  128  vi README.md 
+  129  vi cypress.env.json
+  130  lls
+  131  vi .gitignore 
+  132  vi cypress.env.json 
+  133  yarn cypress
+  134  curl -sS <link:url>https://dl.yarnpkg.com/debian/pubkey.gpg</link:url> | sudo apt-key add -
+  135  echo &quot;deb <link:url>https://dl.yarnpkg.com/debian/</link:url> stable main&quot; | sudo tee <link:url>/etc/apt/sources.list.d/yarn.list</link:url>
+  136  sudo apt install yarn
+  137  yarn install -vv
+  138  npm install
+  139  git checkout 5188-activate-plugins-in-planning-ops 
+  140  yarn install
+  141  export CYPRESS_DOWNLOAD_MIRROR=&quot;<link:url>https://kolt-nexus-master.mil.intra/repository/cypress-raw/</link:url>&quot;
+  142  export NODE_EXTRA_CA_CERTS=/usr/local/share/ca-certificates/EDFCorpRootCA.crt
+  143  yarn config set strict-ssl false
+  144  yarn config set registry <link:url>https://kolt-nexus-master.mil.intra/repository/npm-deprepo/</link:url>
+  145  yarn dev -vv
+  146  git status
+  147  vi package.json 
+  148  yarn start
+  149  yarn dev start
+  150  yarn
+  151  htop
+  152  sudo apt install htop
+  153  lsblk
+  154  cd <link:url>/dev/sda</link:url>
+  155  cd <link:url>/media/taimo/USB</link:url>
+  156  cp kolt.zip <link:url>/etc/kolt/</link:url>
+  157  sudo cp kolt.zip <link:url>/etc/kolt/</link:url>
+  158  cd <link:url>/etc/kolt/</link:url>
+  159  unzip kolt.zip 
+  160  sudo unzip kolt.zip 
+  161  mv kolt/* .
+  162  sudo mv kolt/* .
+  163  cd kolt/
+  164  cd ..
+  165  rm -r kolt
+  166  sudo rm -r kolt
+  167  vi kolt.service
+  168  sudo apt install mariadb
+  169  ps aux | grep
+  170  netstat -tulpna 
+  171  sudo apt install net-tools
+  172  netstat -tulpns
+  173  netstat -tulpna
+  174  systemctl status mysql
+  175  sudo netstat -tulpna
+  176  java -jar kolt
+  177  mysql kolt
+  178  mysql -u kolt
+  179  mysql -u root
+  180  mysql -u root -p
+  181  sudo mysql
+  182  mariadb
+  183  mariadb --version
+  184  sudo apt install mariadb-server
+  185  sudo apt install mariadb-server=10.4
+  186  sudo apt install mariadb-server=10
+  187  sudo apt install mariadb-server=10.4.17
+  188  sudo apt upgrade mariadb-server
+  189  sudo apt-get install --only-upgrade mariadb-server
+  190  dpkg --list
+  191  apt list --upgradable | less
+  192  apt list -a mariadb-server
+  193  sudo apt-get install software-properties-common
+  194  sudo apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
+  195  sudo add-apt-repository &quot;deb [arch=amd64,arm64,ppc64el] <link:url>http://mariadb.mirror.liquidtelecom.com/repo/10.4/ubuntu</link:url> $(lsb_release -cs) main&quot;
+  196  ping 8.8.8.8.
+  197  sudo apt update
+  198  sudo apt-get remove mariadb-server
+  199  systemctl status mysql.service 
+  200  sudo systemctl stop mysql
+  201  sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*
+  202  sudo apt -y install mariadb-server mariadb-client
+  203  mysql
+  204  mysql -u kolt -p
+  205  mysql --version
+  206  java -jar kolt-jar
+  207  vi application.yml 
+  208  echo $SHELL
+  209  systemctl status kernel-api
+  210  pwd
+  211  cd /
+  212  cd /home
+  213  ls -la
+  214  cd /etc
+  215  cd kolt
+  216  java -jar kolt.jar
+  217  vi .zshrc
+  218  vi .bashrc
+  219  nvm
+  220  nvm ls-remote
+  221  nvm install
+  222  nvm install 14.0
+  223  ping 8.8.8.8
+  224  ip a
+  225  nvm install 14
+  226  vi .zsh_history
+  227  vi .bash_history
+  228  history
+  229  nvm use 10
+  230  clear
+  231  cd kolt-planning_ops
+  232  yarn dev
+  233  cd
+  234  nvm use 14
+  235  cd Dev
+  236  cd tooru-ui
+  237  plugin=fdc yarn dev-kolt
+  238  plugin=fo yarn dev-kolt
+  239  plugin=wk9 yarn dev-kolt
+  240  vi package.json
+  241  ls
+  242  yarn dev-all
+  243  ls
+  244  code .
+  245  sudo apt install curl wget git
+  246  sudo apt update
+  247  sudo apt upgrade
+  248  sudo apt install curl wget git
+  249  sh -c &quot;$(curl -fsSL <link:url>https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh</link:url>)&quot;
+  250  history
+  251  cd Dev/kolt-planning_ops
+  252  yarn dev
+  253  cd ..
+  254  cd tooru-ui
+  255  nvm use 14
+  256  npm
+  257  nvm
+  258  nvm install
+  259  sudo apt nvm install
+  260  sudo apt install nvm
+  261  sudo apt install npm
+  262  sudo apt install nvm
+  263  nvm use 14
+  264  cd ..
+  265  cd tooru-ui
+  266  nvm use 14
+  267  vi .bashrc
+  268  echo $TERM
+  269  echo $SHELL
+  270  export a=12
+  271  echo $a
+  272  echo $PATH
+  273  nvm
+  274  vi .zshrc
+  275  vi .bashrc
+  276  cd
+  277  ls
+  278  pwd
+  279  nvm
+  280  vi .zshrc
+  281  vi .bashrc
+  282  nvm
+  283  echo $PATH
+  284  cd Dev/tooru-ui
+  285  nvm use 14
+  286  yarn dev-all
+  287  sudo apt-get install texstudio texlive-latex-extra
+  288  cd Dev/
+  289  git clone --recursive <link:url>https://azuredevops.mil.intra/EDF/KVA/_git/tooru-documentation</link:url>
+  290  git status
+  291  git flow
+  292  git --help
+  293  git checkout develop
+  294  git status
+  295  cd tooru-documentation
+  296  git status
+  297  git flow
+  298  git push
+  299  git checkout develop
+  300  git add *
+  301  cd Dev/
+  302  git clone --recursive <link:url>https://azuredevops.mil.intra/EDF/KVA/_git/tooru-documentation</link:url>
+  303  asdas
+  304  ls
+  305  cd tooru-documentation
+  306  git checkout develop
+  307  cd Dev/kolt-planning_ops
+  308  yarn dev
+  309  cd ..
+  310  cd tooru-ui
+  311  nvm use 14
+  312  yarn dev-all
+  313  cd Dev/kolt-planning_ops
+  314  nvm use 10
+  315  yarn dev
+  316  CD
+  317  cd <link:url>/etc/kolt</link:url>
+  318  ls
+  319  java -jar kolt.jar
+  320  sudo apt install tomboy
+  321  sudo apt-get install tomboy
+  322  sudo apt install gnote
+  323  cd ..
+  324  cd tooru-ui
+  325  yarn dev=all
+  326  yarn dev-all
+  327  sudo apt-get update
+  328  sudo apt-get install --reinstall gnome-control-center
+  329  cd etc/kolt
+  330  history
+  331  cd <link:url>/etc/kolt</link:url>
+  332  java -jar kolt.jar
+  333  cd ..
+  334  ls
+  335  cd /home
+  336  ls
+  337  cd taimo/Dev/kolt-planning_ops
+  338  nvm use 10
+  339  yarn dev
+  340  cd ..
+  341  cd tooru-ui
+  342  nvm use 14
+  343  yarn dev-all
+  344  history
+  345  vi package.json
+  346  yarn cypress
+  347  cd node_modules
+  348  ls
+  349  cd ..
+  350  yarn cypress
+  351  git flow init
+  352  sudo apt install git-flow
+  353  git flow init
+  354  git flow feature start 8395-cypress-tests
+  355  history
+  356  cd
+  357  cd Dev/kolt-planning_ops
+  358  ls
+  359  code .
+  360  ping 8.8.8.8
+  361  echo fs.inotify.max_user_watches=524288 | sudo tee -a <link:url>/etc/sysctl.conf</link:url> &amp;&amp; sudo sysctl -p
+  362  yarn cypress
+  363  cd
+  364  cd Dev/kolt-planning_ops
+  365  cd cypress
+  366  lsw
+  367  ls
+  368  cd fixtures
+  369  ls
+  370  vi login.json
+  371  ls
+  372  cp login.json <link:url>~/Dev/tooru-ui/cypress/fixtures</link:url>
+  373  cd -
+  374  ls
+  375  cd <link:url>~/Dev/tooru-ui</link:url>
+  376  ls
+  377  cd cypress
+  378  ls
+  379  cd fixtures
+  380  ls
+  381  cd -
+  382  cd fixtures
+  383  ls
+  384  cd <link:url>~/Dev/kolt-planning_ops/cypress/fixtures</link:url>
+  385  ls
+  386  cp * -
+  387  cp * -/
+  388  echo $-
+  389  echo -
+  390  echo \n: 1611061413:0;ls
+  391  cp * <link:url>~/Dev/tooru-ui/cypress/fixtures</link:url>
+  392  ls
+  393  cd -
+  394  ls
+  395  yarn cypress
+  396  vi
+  397  ls
+  398  git status
+  399  rm diskspace.json login.json manifest.json map-server-folders-tree.json maps.json setup_info.json time.json user_settings.json vectors.json version.json
+  400  ls
+  401  git diff
+  402  cd ..
+  403  ls
+  404  yarn cypress
+  405  cd <link:url>/etc/kolt</link:url>
+  406  java -jar kolt.jar
+  407  cd
+  408  nvm use 10
+  409  yarn dev
+  410  cd Dev/kolt-planning_ops
+  411  yarn dev
+  412  cd 
+  413  cd Dev/tooru-ui
+  414  nvm use 14
+  415  yarn dev-all
+  416  history
+  417  code .
+  418  cd 
+  419  cd Dev/kolt-planning_ops
+  420  code .
+  421  yarn cypress
+  422  cd <link:url>/etc/kolt</link:url>
+  423  java -jar kolt.jar
+  424  cd 
+  425  cd Dev/kolt-planning_ops
+  426  nvm use 10
+  427  yarn dev
+  428  cd 
+  429  cd Dev/tooru-ui
+  430  nvm use 14
+  431  yarn dev-all
+  432  code .
+  433  yarn cypress
+  434  cd 
+  435  cd Dev/kolt-planning_ops
+  436  code .
+  437  sudo mysql
+  438  ls
+  439  cd
+  440  cd Dev
+  441  lsw
+  442  ls
+  443  git clone --recursive <link:url>https://azuredevops.mil.intra/EDF/CYBCOM/_git/kolt-current_ops</link:url>
+  444  rm -rf kolt-current_ops
+  445  git clone --recursive <link:url>https://azuredevops.mil.intra/EDF/CYBCOM/_git/kolt-current_ops</link:url>
+  446  ls
+  447  ssh-keygen
+  448  cd .ssh
+  449  ls
+  450  cd 
+  451  cd .ssh
+  452  ls
+  453  cat id_rsa.pub
+  454  CD
+  455  cd
+  456  cd Dev
+  457  ls
+  458  rm -rf kolt-current_ops
+  459  git clone ssh://azuredevops.mil.intra:22/EDF/CYBCOM/_git/kolt-current_ops
+  460  ls
+  461  git clone --recursive ssh://azuredevops.mil.intra:22/EDF/CYBCOM/_git/kolt-current_ops
+  462  ls
+  463  cd kolt-current_ops
+  464  ls
+  465  git log
+  466  git checkout 20fa0ac7122bd889aaef3e78e9a733b7bcedf02e
+  467  git log
+  468  ls
+  469  cd gradle
+  470  ls
+  471  cd wrapper
+  472  ls
+  473  vi gradle-wrapper.properties
+  474  ls
+  475  cd ..
+  476  ls
+  477  cd ..
+  478  ls
+  479  git checkout develop
+  480  cd gradle
+  481  ls
+  482  git checkout 20fa0ac7122bd889aaef3e78e9a733b7bcedf02e
+  483  ls
+  484  vi init.sh
+  485  ls
+  486  vi init.sh
+  487  cat README.md
+  488  :q
+  489  chmod +x init.sh
+  490  ./init.sh
+  491  ls
+  492  cd gradle
+  493  ls
+  494  vi repositories.gradle
+  495  ls
+  496  cd ..
+  497  ls
+  498  vi gradle.properties
+  499  cd gradle
+  500  ls
+  501  cd wrapper
+  502  ls
+  503  cd ..
+  504  ls
+  505  cd ..
+  506  ls
+  507  vi build.gradle
+  508  sudo groupadd docker
+  509  sudo usermod -aG docker $USER
+  510  docker ps
+  511  relog
+  512  login
+  513  id -g
+  514  docker ps
+  515  su - $USER
+  516  docker ps
+  517  cd 
+  518  cd Dev/kolt-current_ops
+  519  ls
+  520  whoami
+  521  docker-compose up
+  522  cd src
+  523  ls
+  524  cd main
+  525  ls
+  526  cd resources
+  527  ls
+  528  vi application.yml
+  529  cd ..
+  530  ls
+  531  cd ..
+  532  ./gradlew bootrun
+  533  ls
+  534  cd ..
+  535  ./gradlew bootrun
+  536  ls
+  537  cd src/main/resources
+  538  ls
+  539  vi application.yml
+  540  ./gradlew bootrun
+  541  systemctl status kernel-api
+  542  sudo apt upgrade kernel-api
+  543  sudo apt upgrade tooru-kernel-api
+  544  ./gradlew bootrun
+  545  git log
+  546  git checkout 779b88fe496c1e6cf4dec496cacfc1c34828c339
+  547  yarn dev
+  548  mysql -u kolt -p
+  549  htop
+  550  sudo apt install htop
+  551  htop
+  552  yarn dev-all
+  553  cd <link:url>/etc/kolt</link:url>
+  554  java -jar kolt.jar
+  555  cd 
+  556  cd Dev/kolt-planning_ops
+  557  history
+  558  nvm use 10
+  559  yarn dev
+  560  cd 
+  561  cd Dev/tooru-ui
+  562  nvm use 14
+  563  yarn dev-all
+  564  yarn cypress
+  565  ls
+  566  cd cypress
+  567  ls
+  568  cd fixtures
+  569  ls
+  570  vi messages.json
+  571  ls
+  572  cd ..
+  573  ls
+  574  htop
+  575  yarn cypress
+  576  sudo mysql
+  577  mysql -u kolt -p
+  578  cd 
+  579  cd .local/share/tom
+  580  ls
+  581  cd .local/share
+  582  ls
+  583  cd gno
+  584  cd gnote
+  585  ls
+  586  git status
+  587  git init
+  588  ls
+  589  git status
+  590  git add *
+  591  git commit -m &quot;Best sync scheme EU&quot;
+  592  git config --global <link:url>taimo.priinits@gmail.com</link:url>
+  593  git config --global Taimo Priinits
+  594  git config --global <link:url>taimo.priinits@gmail.com</link:url>
+  595  git config --global Taimo Priinits
+  596  git config --global Taimo
+  597  git config --global TaimoPriinits
+  598  got add *
+  599  git add*
+  600  gti add *
+  601  git add *
+  602  git commit -m &quot;Best sync scheme EU&quot;
+  603  ^[[200~git config --global user.email &quot;<link:url>you@example.com</link:url>&quot;
+  604  git config --global user.email &quot;<link:url>taimo.priinits@gmail.com</link:url>&quot;
+  605  git config --global user.name &quot;Taimo Priinits&quot;
+  606  git push
+  607  git add *
+  608  git commit -m &quot;Best sync scheme EU&quot;
+  609  git push
+  610  git push Backup
+  611  git push --set-upstream Backup master
+  612  cd 
+  613  cd Dev/tooru-ui
+  614  mysql -u kolt -p
+  615  yarn cypress
+  616  cd <link:url>/etc/kolt</link:url>
+  617  cd
+  618  cd .local/share/gno
+  619  cd .local/share/gnote/
+  620  ls
+  621  cd Backup
+  622  ls
+  623  cd ..
+  624  ls
+  625  cd -
+  626  ls
+  627  vi .git/config
+  628  git push
+  629  cd /tmp
+  630  ls
+  631  mkdir backups
+  632  cd backups
+  633  git clone <link:url>https://github.com/TaimoPriinits/Backup.git</link:url>
+  634  cd Backup
+  635  vi .git/config
+  636  cd .git
+  637  ls
+  638  vi config
+  639  cd ..
+  640  git status
+  641  git add *
+  642  git commit -m &quot;Monks&quot;
+  643  git push
+  644  git push --set-upstream origin master
+  645  git status
+  646  git log
+  647  vi .git/config
+  648  git config --global init.defaultBranch master
+  649  java -jar kolt.jar
+  650  cd 
+  651  cd Dev/kolt-planning_ops
+  652  nvm use 10
+  653  yarn dev
+  654  cd ..
+  655  cd tooru-ui
+  656  nvm use 14
+  657  yarn dev-all
+  658  history
+  659  yarn cypress
+  660  cd Dev/tooru-documentation
+  661  git pull
+  662  ls
+  663  cd Backup
+  664  ls
+  665  yarn cypress
+  666  history
+  667  mysql -u kolt -ü
+  668  mysql -u kolt -p
+  669  git flow
+  670  git add *
+  671  history
+  672  git commit -m &quot;Tests with stubbed messages&quot;
+  673  git push
+  674  git push --set-upstream origin feature/8395-cypress-tests
+  675  cd <link:url>/etc/kolt</link:url>
+  676  java -jar kolt.jar
+  677  cd 
+  678  cd Dev/kolt-planning_ops
+  679  nvm use 10
+  680  yarn dev
+  681  cd ..
+  682  cd tooru-ui
+  683  nvm use 14
+  684  yarn dev-all
+  685  yarn cypress
+  686  code.
+  687  code .
+  688  mysql -u kolt -p
+</note-content>
+</text><last-change-date>2021-01-22T12:19:46,190873Z</last-change-date><last-metadata-change-date>2021-01-22T12:19:46,220464Z</last-metadata-change-date><create-date>2021-01-22T12:19:11,985455Z</create-date><cursor-position>17756</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>TODO</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">TODO
+
+*) Basic screenshot cypressis tooru-documentation repos tööle
+*) Võtad vale pildi, võrdled valesti
+  --) try {} catch {} blokis javascriptiga concatenate-i pildinimi faili (changedSnapshots.txt)
+*) Script:
+  --) pipeline-s panna findChangedScreenshotCorrespondingDocumentation.sh tööle
+  --) Kirjutad findChanged.sh skripti:
+    ---) Loeb changedSnapshots.txt-st muutujad
+    ---) grep-ib õige käsuga Itereerides for loop-is kõikide sõnadega
+      -----) grepitud output peab minema oma oma faili. </note-content>
+</text><last-change-date>2021-01-28T09:28:19,737392Z</last-change-date><last-metadata-change-date>2021-01-28T09:28:19,738424Z</last-metadata-change-date><create-date>2021-01-28T09:21:56,394611Z</create-date><cursor-position>421</cursor-position><selection-bound-position>447</selection-bound-position><width>376</width><height>1158</height></note>
+

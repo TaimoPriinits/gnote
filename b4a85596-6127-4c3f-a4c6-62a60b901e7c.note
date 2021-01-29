@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>tooru-ui uue releasi installimine</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">tooru-ui uue releasi installimine
+
+git pull
+git merge origin develop
+sudo apt install tooru-kernel-api</note-content>
+</text><last-change-date>2021-01-27T06:44:41,886116Z</last-change-date><last-metadata-change-date>2021-01-27T06:44:41,886219Z</last-metadata-change-date><create-date>2021-01-27T06:44:39,233064Z</create-date><cursor-position>102</cursor-position><selection-bound-position>-1</selection-bound-position><width>472</width><height>1158</height></note>
+

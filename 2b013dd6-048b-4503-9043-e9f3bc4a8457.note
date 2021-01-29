@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Bash</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Bash
+<link:url>https://linuxconfig.org/bash-scripting-tutorial-for-beginners</link:url>
+
+<bold><size:large>Redirecting stdout to overwrite to file</size:large></bold>
+echo &quot;Tere, olen muutuja scripti failis&quot; &gt; uusFail
+<bold>Appending to file</bold>
+echo &quot;I append&quot; &gt;&gt; uusFail
+<bold>Writing variable to file</bold>
+echo &quot;${mask}_${l}-${k}&quot;&gt;&gt;error_tiles.txt
+
+<bold><size:large>Variables</size:large></bold>
+greeting=&quot;Welcome&quot;
+user=$(whoami)
+day=$(date +%A)
+
+echo &quot;$greeting back $user! Today is $day, which is the best day of the entire week!&quot;
+echo &quot;Your Bash shell version is: $BASH_VERSION. Enjoy!&quot;
+
+<bold><size:large>Shebang</size:large></bold>
+#!/bin/bash
+
+<bold>Interesting commands</bold>
+grep
+</note-content>
+</text><last-change-date>2021-01-28T08:39:37,511593Z</last-change-date><last-metadata-change-date>2021-01-28T08:39:37,512264Z</last-metadata-change-date><create-date>2021-01-28T08:27:54,770036Z</create-date><cursor-position>524</cursor-position><selection-bound-position>-1</selection-bound-position><width>630</width><height>1158</height></note>
+
