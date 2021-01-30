@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>ZSH theme</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">ZSH theme
+
+Copy
+
+local ret_status=&quot;%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )&quot;
+PROMPT='${ret_status} %{$fg[cyan]%}%d%{$reset_color%} $(git_prompt_info)'
+
+ 
+
+ZSH_THEME_GIT_PROMPT_PREFIX=&quot;%{$fg_bold[blue]%}git:(%{$fg[red]%}&quot;
+ZSH_THEME_GIT_PROMPT_SUFFIX=&quot;%{$reset_color%} &quot;
+ZSH_THEME_GIT_PROMPT_DIRTY=&quot;%{$fg[blue]%}) %{$fg[yellow]%}✗&quot;
+ZSH_THEME_GIT_PROMPT_CLEAN=&quot;%{$fg[blue]%})&quot;
+
+to
+
+sudo <link:url>~/.oh-my-zsh/themes/robbyrussell.zsh-theme</link:url></note-content>
+</text><last-change-date>2021-01-30T19:43:39,974881Z</last-change-date><last-metadata-change-date>2021-01-30T19:43:39,975370Z</last-metadata-change-date><create-date>2021-01-30T19:42:37,800240Z</create-date><cursor-position>432</cursor-position><selection-bound-position>-1</selection-bound-position><width>333</width><height>732</height></note>
+

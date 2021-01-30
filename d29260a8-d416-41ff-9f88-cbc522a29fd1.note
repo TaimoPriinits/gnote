@@ -9,6 +9,8 @@
   --) Kirjutad findChanged.sh skripti:
     ---) Loeb changedSnapshots.txt-st muutujad
     ---) grep-ib õige käsuga Itereerides for loop-is kõikide sõnadega
-      -----) grepitud output peab minema oma oma faili. </note-content>
-</text><last-change-date>2021-01-28T09:28:19,737392Z</last-change-date><last-metadata-change-date>2021-01-28T09:28:19,738424Z</last-metadata-change-date><create-date>2021-01-28T09:21:56,394611Z</create-date><cursor-position>421</cursor-position><selection-bound-position>447</selection-bound-position><width>376</width><height>1158</height></note>
+      -----) grepitud output peab minema oma oma faili. 
+
+Enne cypressi testi tuleb vanad pildid kasuta tõmmata.</note-content>
+</text><last-change-date>2021-01-30T17:46:32,737302Z</last-change-date><last-metadata-change-date>2021-01-30T17:46:32,738271Z</last-metadata-change-date><create-date>2021-01-28T09:21:56,394611Z</create-date><cursor-position>560</cursor-position><selection-bound-position>-1</selection-bound-position><width>1366</width><height>744</height></note>
 

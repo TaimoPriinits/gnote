@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>script</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">script
+
+find subfolder/*.png -name &quot;difference&quot; | sed 's@subfolder/@@' &gt; xd.txt
+for fileName in $(cat xd.txt)
+do
+	@fileName &gt;&gt; final.txt
+	grep -nr subfolder/ | sed 's@subfolder/@@' &gt;&gt; final.txt
+done
+</note-content>
+</text><last-change-date>2021-01-30T22:05:52,984079Z</last-change-date><last-metadata-change-date>2021-01-30T22:05:52,985132Z</last-metadata-change-date><create-date>2021-01-30T21:59:53,427238Z</create-date><cursor-position>198</cursor-position><selection-bound-position>-1</selection-bound-position><width>333</width><height>732</height></note>
+
