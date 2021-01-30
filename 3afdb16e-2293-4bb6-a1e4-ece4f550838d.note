@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Linux</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Linux
+
+Failide õigused
+Anna maksimaalsed õigused
+sudo chmod 777 failiNimi
+Muuda omanikku:gruppi
+sudo chown taimo:taimo failiNimi
+
+Smb serveri ligipääs
+smb://172.16.4.39
+
+Download files from web
+wget URL
+make directory
+mkdir dir_name
+wifi
+nmtui
+Run as admin
+sudo
+süsteemi andmed
+cat <link:url>/etc/os-release</link:url>
+mis kaustas olen 
+pwd
+mis kaustas on
+ls
+kausta vahetus
+cd
+</note-content>
+</text><last-change-date>2021-01-30T14:21:18,483468Z</last-change-date><last-metadata-change-date>2021-01-30T14:21:18,485181Z</last-metadata-change-date><create-date>2021-01-30T14:21:16,330373Z</create-date><cursor-position>356</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>VPN</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">VPN
+
+sudo openconnect k-00.mod.ee -s 'vpn-slice 10.0.0.0/8 172.0.0.0/8 azuredevops.mil.intra=172.16.1.219 mail.mil.intra=172.31.2.31 kv.mil.intra=172.16.1.78 otsing.mil.intra=172.16.1.78 kv-cherwell-app.mil.intra=172.16.4.60'
+
+sudo apt-get install python3-pip
+sudo pip3 install <link:url>https://github.com/dlenski/vpn-slice/archive/master.zip</link:url>
+</note-content>
+</text><last-change-date>2021-01-30T14:20:40,147260Z</last-change-date><last-metadata-change-date>2021-01-30T14:20:40,148581Z</last-metadata-change-date><create-date>2021-01-30T14:20:21,367900Z</create-date><cursor-position>334</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+

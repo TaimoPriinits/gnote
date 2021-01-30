@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Cypress</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Cypress
+
+npx cypress open
+
+Kast ümber elemendi
+Cypress.Commands.add(&quot;highlight&quot;, {prevSubject: 'element'}, $el=&gt; {$el.css('border', '0.2rem solid red')});
+
+Snapshots
+<link:url>https://github.com/meinaart/cypress-plugin-snapshots</link:url>
+
+Install
+apt-get install libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb
+sudo apt install nodejs\n
+sudo apt install npm\n
+cd <link:url>/your/project/path</link:url>
+npm install cypress --save-dev</note-content>
+</text><last-change-date>2021-01-30T14:21:0,057838Z</last-change-date><last-metadata-change-date>2021-01-30T14:21:0,058247Z</last-metadata-change-date><create-date>2021-01-30T14:20:55,783463Z</create-date><cursor-position>453</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+
