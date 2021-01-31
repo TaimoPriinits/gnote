@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>script</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">script
+
+#!/bin/<link:internal>bash</link:internal>
+find subfolder/*.md -name &quot;*x*&quot; | sed 's@subfolder/@@' &gt;xd.txt
+while read line
+do</note-content>
+</text><last-change-date>2021-01-31T14:01:15,967054Z</last-change-date><last-metadata-change-date>2021-01-31T14:01:15,968082Z</last-metadata-change-date><create-date>2021-01-30T21:59:53,427238Z</create-date><cursor-position>101</cursor-position><selection-bound-position>-1</selection-bound-position><width>673</width><height>732</height></note>
+
