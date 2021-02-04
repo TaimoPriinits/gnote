@@ -7,7 +7,9 @@ Kast ümber elemendi
 Cypress.Commands.add(&quot;highlight&quot;, {prevSubject: 'element'}, $el=&gt; {$el.css('border', '0.2rem solid red')});
 
 Snapshots
-<link:url>https://github.com/meinaart/cypress-plugin-snapshots</link:url>
+<link:url>https://github.com/jaredpalmer/cypress-image-snapshot</link:url>
+--env updateSnapshots=true
+--env failOnSnapshotDiff=false
 
 Install
 apt-get install libgtk2.0-0 libgtk-3-0 libgbm-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2 libxtst6 xauth xvfb
@@ -15,5 +17,5 @@ sudo apt install nodejs\n
 sudo apt install npm\n
 cd <link:url>/your/project/path</link:url>
 npm install cypress --save-dev</note-content>
-</text><last-change-date>2021-01-30T14:21:0,057838Z</last-change-date><last-metadata-change-date>2021-01-30T14:21:0,058247Z</last-metadata-change-date><create-date>2021-01-30T14:20:55,783463Z</create-date><cursor-position>453</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+</text><last-change-date>2021-02-04T07:45:25,691227Z</last-change-date><last-metadata-change-date>2021-02-04T07:45:25,691421Z</last-metadata-change-date><create-date>2021-01-30T14:20:55,783463Z</create-date><cursor-position>512</cursor-position><selection-bound-position>-1</selection-bound-position><width>632</width><height>1158</height></note>
 
