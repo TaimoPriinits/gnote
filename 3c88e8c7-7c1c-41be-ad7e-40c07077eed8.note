@@ -1,16 +1,29 @@
 <?xml version="1.0"?>
-<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Arenduskeskkonna tööle panemine</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Arenduskeskkonna tööle panemine
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Arenduskeskkond</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Arenduskeskkond
 
 <bold>KOLT server</bold>
 cd <link:url>/etc/kolt</link:url>
 java -jar kolt.jar
 
-KOLT planning ops plugin
+<bold>KOLT planning ops</bold>
 nvm use 10
 yarn dev
-g
-TOORU pluginid
+
+<bold>TOORU pluginid</bold>
 nvm use 14
-yarn dev-all</note-content>
-</text><last-change-date>2021-01-27T11:55:44,574866Z</last-change-date><last-metadata-change-date>2021-01-27T11:55:44,575792Z</last-metadata-change-date><create-date>2021-01-18T13:04:16,335750Z</create-date><cursor-position>32</cursor-position><selection-bound-position>-1</selection-bound-position><width>472</width><height>1158</height></note>
+yarn dev-all
+
+<bold>Plugin update</bold>
+git pull
+git merge origin develop
+sudo apt install tooru-kernel-api
+
+<bold>Deleting messages</bold>
+mysql -u kolt -p
+
+parool: kolt
+
+use kolt
+delete from messages;</note-content>
+</text><last-change-date>2021-02-01T07:31:49,068557Z</last-change-date><last-metadata-change-date>2021-02-01T07:31:49,068827Z</last-metadata-change-date><create-date>2021-01-18T13:04:16,335750Z</create-date><cursor-position>304</cursor-position><selection-bound-position>-1</selection-bound-position><width>1920</width><height>1168</height></note>
 

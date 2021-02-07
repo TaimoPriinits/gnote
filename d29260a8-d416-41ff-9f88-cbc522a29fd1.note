@@ -1,16 +1,10 @@
 <?xml version="1.0"?>
 <note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>TODO</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">TODO
 
-*) Basic screenshot cypressis tooru-documentation repos tööle
-*) Võtad vale pildi, võrdled valesti
-  --) try {} catch {} blokis javascriptiga concatenate-i pildinimi faili (changedSnapshots.txt)
-*) Script:
-  --) pipeline-s panna findChangedScreenshotCorrespondingDocumentation.sh tööle
-  --) Kirjutad findChanged.sh skripti:
-    ---) Loeb changedSnapshots.txt-st muutujad
-    ---) grep-ib õige käsuga Itereerides for loop-is kõikide sõnadega
-      -----) grepitud output peab minema oma oma faili. 
+Enne cypressi testi tuleb vanad pildid kasuta tõmmata.
+Peale dokumentatsiooni pranduste sisse viimist tuleb <link:internal>cypress</link:internal>-i test uuesti jooksutada nii, et see uuendaks snapshote ja kustutada diff folderist kõik pildid.
 
-Enne cypressi testi tuleb vanad pildid kasuta tõmmata.</note-content>
-</text><last-change-date>2021-01-30T17:46:32,737302Z</last-change-date><last-metadata-change-date>2021-01-30T17:46:32,738271Z</last-metadata-change-date><create-date>2021-01-28T09:21:56,394611Z</create-date><cursor-position>560</cursor-position><selection-bound-position>-1</selection-bound-position><width>1366</width><height>744</height></note>
+TOORU-ui master pipline peab artifactist lugema .md file ja pipeline ei tohi passida, kui dokumentatsioon ei ole uuendatud.
+TOORU-documentatsioon peab artifactist saama pildid ja saatma ka KOLT-i dokumentatsiooni.</note-content>
+</text><last-change-date>2021-02-03T06:25:2,364804Z</last-change-date><last-metadata-change-date>2021-02-03T06:25:2,365072Z</last-metadata-change-date><create-date>2021-01-28T09:21:56,394611Z</create-date><cursor-position>433</cursor-position><selection-bound-position>-1</selection-bound-position><width>376</width><height>1158</height></note>
 
