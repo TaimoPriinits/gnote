@@ -5,6 +5,10 @@
 git log
 
 <bold>Create branch</bold>
-git flow feature start feature-name</note-content>
-</text><last-change-date>2021-02-04T09:38:18,607791Z</last-change-date><last-metadata-change-date>2021-02-04T09:38:22,599858Z</last-metadata-change-date><create-date>2021-02-04T06:17:46,781398Z</create-date><cursor-position>51</cursor-position><selection-bound-position>86</selection-bound-position><width>470</width><height>1158</height></note>
+git flow feature start feature-name
+
+<bold>Merging, go to father branch and merge wanted children branch</bold>
+git merge feature/children-branch-name</note-content>
+</text><last-change-date>2021-02-05T07:03:9,433672Z</last-change-date><last-metadata-change-date>2021-02-05T07:03:9,433982Z</last-metadata-change-date><create-date>2021-02-04T06:17:46,781398Z</create-date><cursor-position>51</cursor-position><selection-bound-position>86</selection-bound-position><width>632</width><height>1158</height></note>
+>>>>>>> c082490d9aa6a51ce4643a4f8787b742b98e6d83
 
