@@ -2,6 +2,9 @@
 <note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Bash</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Bash
 <link:url>https://linuxconfig.org/bash-scripting-tutorial-for-beginners</link:url>
 
+<bold>Locate directory</bold>
+find / -name DIRNAME -type d
+
 <bold><size:large>Redirecting stdout to overwrite to file</size:large></bold>
 echo &quot;Tere, olen muutuja scripti failis&quot; &gt; uusFail
 <bold>Appending to file</bold>
@@ -22,5 +25,5 @@ echo &quot;Your Bash shell version is: $BASH_VERSION. Enjoy!&quot;
 
 <bold>Interesting commands</bold>
 grep</note-content>
-</text><last-change-date>2021-01-31T13:54:43,318332Z</last-change-date><last-metadata-change-date>2021-01-31T13:54:43,318611Z</last-metadata-change-date><create-date>2021-01-28T08:27:54,770036Z</create-date><cursor-position>460</cursor-position><selection-bound-position>-1</selection-bound-position><width>673</width><height>732</height></note>
+</text><last-change-date>2021-02-10T09:45:8,543376Z</last-change-date><last-metadata-change-date>2021-02-10T09:45:8,543694Z</last-metadata-change-date><create-date>2021-01-28T08:27:54,770036Z</create-date><cursor-position>570</cursor-position><selection-bound-position>-1</selection-bound-position><width>630</width><height>1158</height></note>
 
