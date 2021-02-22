@@ -17,5 +17,5 @@ sudo apt install nodejs\n
 sudo apt install npm\n
 cd <link:url>/your/project/path</link:url>
 npm install cypress --save-dev</note-content>
-</text><last-change-date>2021-02-04T07:45:25,691227Z</last-change-date><last-metadata-change-date>2021-02-04T07:45:25,691421Z</last-metadata-change-date><create-date>2021-01-30T14:20:55,783463Z</create-date><cursor-position>512</cursor-position><selection-bound-position>-1</selection-bound-position><width>632</width><height>1158</height></note>
+</text><last-change-date>2021-02-04T07:45:25,691227Z</last-change-date><last-metadata-change-date>2021-02-04T07:45:25,691421Z</last-metadata-change-date><create-date>2021-01-30T14:20:55,783463Z</create-date><cursor-position>512</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
 

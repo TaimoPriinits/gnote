@@ -9,5 +9,5 @@ git flow feature start feature-name
 
 <bold>Merging, go to father branch and merge wanted children branch</bold>
 git merge feature/children-branch-name</note-content>
-</text><last-change-date>2021-02-05T07:03:9,433672Z</last-change-date><last-metadata-change-date>2021-02-05T07:03:9,433982Z</last-metadata-change-date><create-date>2021-02-04T06:17:46,781398Z</create-date><cursor-position>51</cursor-position><selection-bound-position>86</selection-bound-position><width>632</width><height>1158</height></note>
+</text><last-change-date>2021-02-11T12:26:21,129167Z</last-change-date><last-metadata-change-date>2021-02-11T12:26:21,129461Z</last-metadata-change-date><create-date>2021-02-04T06:17:46,781398Z</create-date><cursor-position>188</cursor-position><selection-bound-position>-1</selection-bound-position><width>950</width><height>1158</height></note>
 

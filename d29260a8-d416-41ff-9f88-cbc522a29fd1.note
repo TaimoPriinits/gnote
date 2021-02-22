@@ -6,5 +6,5 @@ Peale dokumentatsiooni pranduste sisse viimist tuleb <link:internal>cypress</lin
 
 TOORU-ui master pipline peab artifactist lugema .md file ja pipeline ei tohi passida, kui dokumentatsioon ei ole uuendatud.
 TOORU-documentatsioon peab artifactist saama pildid ja saatma ka KOLT-i dokumentatsiooni.</note-content>
-</text><last-change-date>2021-02-03T06:25:2,364804Z</last-change-date><last-metadata-change-date>2021-02-03T06:25:2,365072Z</last-metadata-change-date><create-date>2021-01-28T09:21:56,394611Z</create-date><cursor-position>433</cursor-position><selection-bound-position>-1</selection-bound-position><width>376</width><height>1158</height></note>
+</text><last-change-date>2021-02-03T06:25:2,364804Z</last-change-date><last-metadata-change-date>2021-02-03T06:25:2,365072Z</last-metadata-change-date><create-date>2021-01-28T09:21:56,394611Z</create-date><cursor-position>433</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
 
