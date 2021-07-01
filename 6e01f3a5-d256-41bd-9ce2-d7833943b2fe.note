@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>VPN</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">VPN
 
-sudo openconnect k-00.mod.ee -s 'vpn-slice 10.0.0.0/8 172.0.0.0/8 azuredevops.mil.intra=172.16.1.219 mail.mil.intra=172.31.2.31 kv.mil.intra=172.16.1.78 otsing.mil.intra=172.16.1.78 kv-cherwell-app.mil.intra=172.16.4.60'
+sudo openconnect k-00.mod.ee -s 'vpn-slice 10.0.0.0/8 172.16.0.0/12 azuredevops.mil.intra=172.16.1.219 mail.mil.intra=172.31.2.31 kv.mil.intra=172.16.1.78 otsing.mil.intra=172.16.1.78 kv-cherwell-app.mil.intra=172.16.4.60 videokonverentsid.vtc.mil.intra=10.30.16.3 oos.mil.intra=172.31.1.201 oos2.mil.intra=172.16.1.168 kolt-nexus-master.mil.intra=172.16.4.2 meme.toorudemo.mil.intra=172.16.117.109 milterm.mil.intra=172.16.4.45 rocketchat.mil.intra=172.16.117.104 <link:internal>docusaurus</link:internal>.mil.intra=172.16.117.146 toorudemo.mil.intra=172.16.117.109'
 
 sudo apt-get install python3-pip
 sudo pip3 install <link:url>https://github.com/dlenski/vpn-slice/archive/master.zip</link:url>
+sudo apt-get install openconnect
 </note-content>
-</text><last-change-date>2021-01-30T14:20:40,147260Z</last-change-date><last-metadata-change-date>2021-01-30T14:20:40,148581Z</last-metadata-change-date><create-date>2021-01-30T14:20:21,367900Z</create-date><cursor-position>334</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+</text><last-change-date>2021-06-11T07:25:44,925036Z</last-change-date><last-metadata-change-date>2021-06-11T07:25:44,926082Z</last-metadata-change-date><create-date>2021-01-30T14:20:21,000000Z</create-date><cursor-position>5</cursor-position><selection-bound-position>541</selection-bound-position><width>450</width><height>400</height></note>
 

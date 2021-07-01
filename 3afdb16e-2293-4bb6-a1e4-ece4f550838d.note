@@ -10,6 +10,8 @@ sudo chown taimo:taimo failiNimi
 Smb serveri ligipääs
 smb://172.16.4.39
 
+Open file manager in terminal
+xdg-open
 Download files from web
 wget URL
 make directory
@@ -27,5 +29,5 @@ ls
 kausta vahetus
 cd
 </note-content>
-</text><last-change-date>2021-01-30T14:21:18,483468Z</last-change-date><last-metadata-change-date>2021-01-30T14:21:18,485181Z</last-metadata-change-date><create-date>2021-01-30T14:21:16,330373Z</create-date><cursor-position>356</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+</text><last-change-date>2021-03-13T12:29:31,000000Z</last-change-date><last-metadata-change-date>2021-03-13T12:29:31,000000Z</last-metadata-change-date><create-date>2021-01-30T14:21:16,000000Z</create-date><cursor-position>199</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
 

@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>ASCA CFF</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">ASCA CFF
+
+Analysed TOORU CFF form with @Egert Viktor Vaus, compared it with ASCA documentation section 6.20.
+
+ASCA CFF
+
+MSGID (Message Identification): Done
+
+FMO (Fire Mission Originator): 
+<list><list-item dir="ltr">FO sall sign needs to be transformed to general NATO call sign @Anna Oras What is the general format of NATO call sign for such cases?</list-item></list>
+
+TNO (Target Number): Done
+
+MPI (Mission Phase Indicator): Done
+<list><list-item dir="ltr">Subsequent adjustment conditions 6.24.6.e, 6.24.6.t, 6.24.6.u, 6.24.6.e, 6.24.6.t, 6.24.6.u, 
+</list-item><list-item dir="ltr">With subsequent adjustment message one should not be allowed to go back from FFE to ADJ.</list-item></list>
+
+NUN (Number of Weapons):
+<list><list-item dir="ltr">Conditions 6.20.4.2.b-6.20.4.2.e.</list-item></list>
+
+GRID (Target Location): Done
+
+GZE (Target Grid Zone).: Done
+
+HOB (Height of Burst): NOT DONE
+<list><list-item dir="ltr">Conditions 6.20.4.2.p, 6.20.6.w and 6.20.6.x
+</list-item><list-item dir="ltr">Subsequent adjustment conditions 6.24.4.2.i</list-item></list>
+
+TST (Target Description).:
+<list><list-item dir="ltr">Target Type target.getField(type) Done
+</list-item><list-item dir="ltr">Target Subtype target.getField(subType) Done
+</list-item><list-item dir="ltr">Degree of Protection target.getField(protection) Done</list-item></list>
+
+SMTI (Special Mission Type Indicator):
+<list><list-item dir="ltr">Mission Type (ILL, ILR, SMK): Not Done
+</list-item><list-item dir="ltr">Duration of Effect: Not to be confused with current FM duration in CFF.
+</list-item><list-item dir="ltr">Conditions 6.20.4.2.b, 6.20.4.2.e, 6.20.4.2.p, 6.20.4.2.r, 6.20.4.2.t</list-item></list>
+
+STR (Target Strength):
+<list><list-item dir="ltr">Number of Target Elements: Not done</list-item></list>
+
+SIZ (Target Size): Done
+<list><list-item dir="ltr">Length and Width min values differ in TOORU it's set as 111 m but ASCA it should be 1 m.
+</list-item><list-item dir="ltr">ASCA Doesn't suppoer multipoint</list-item></list>
+
+RVA (Report Value Accuracy): Done
+
+TRJ (Trajectory Type): Done
+Subsequent adjustment conditions 6.24.4.3.a, 6.24.6.h
+
+MUE2 (Munitions in Effect): Done
+<list><list-item dir="ltr">Conditions 6.20.4.2.b-6.20.4.2.e, 6.20.4.2.g, 6.20.4.2.k, 6.20.4.2.p, 6.20.4.2.s, 6.20.6.v, 6.20.6.aa
+</list-item><list-item dir="ltr">Subsequent adjustment conditions 6.24.4.2.d, 6.24.4.2.i, 6.24.6.w</list-item></list>
+
+MUA (Munitions in Adjustment): Not done
+<list><list-item dir="ltr">kui on pandud EoM, ei tohi MUA-t saata
+</list-item><list-item dir="ltr">Number of Volleys/Rockets
+</list-item><list-item dir="ltr">Adjusting Projectile
+</list-item><list-item dir="ltr">Adjusting Fuze
+</list-item><list-item dir="ltr">Conditions 6.20.4.2.o, 6.20.4.2.p
+</list-item><list-item dir="ltr">Subsequent adjustment conditions 6.24.4.2.j, 6.24.6.r</list-item></list>
+
+MUA and MUE2 must be separate messages if it is not changed in subsequent adjustment, use previous values. ASCA can send both messages simultaneously.
+
+EFR (Effects Required): Not Done
+<list><list-item dir="ltr">Effect Required ei täideta, kui MUE2 vaata üle tingimused
+</list-item><list-item dir="ltr">Conditions 6.20.4.2.b, 6.20.4.2.e, 6.20.4.2.p, 6.20.4.2.r, 6.20.4.2.t, 6.20.6.d, 6.20.6.aa</list-item></list>
+
+MOC (Method of Control): Done
+<list><list-item dir="ltr">Subsequent adjustment conditions 6.24.4.2.a, 6.24.6.l, 6.24.6.q</list-item></list>
+
+FIRINT (Firing Interval): Done
+<list><list-item dir="ltr">subsequent adjustment conditions 6.24.4.2.f, 6.24.4.2.h, 6.24.6.p</list-item></list>
+
+EOM (End of Mission): Done
+
+IMPACT (Predicted Impact Location of Enemy Fires): Don't support
+
+TGTENV (Target Environment): Only support one field
+- Target Area Terrain Description
+
+GMLRS: Don't support
+
+When creating ASCA CFF one should be able to choose case described in 6.20.4.1 in the beginning then only mandatory fields are shown.
+Same thing for subsequent adjustments cases are described in section 6.24.4.</note-content>
+</text><last-change-date>2021-06-23T09:25:35,520618Z</last-change-date><last-metadata-change-date>2021-06-23T09:25:35,521341Z</last-metadata-change-date><create-date>2021-06-22T06:49:2,930558Z</create-date><cursor-position>1642</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Õppusel tekkinud vead/soovitused</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Õppusel tekkinud vead/soovitused
+
+Korrektuuri suuna võiks võtta automaatselt tuletellimusest.
+Üks FO saab teiste FO-de tuletellimusest katkestada.
+Targetite nimede järjekorda võiks muuta.
+SM loendis olevale nimele vajutades võiks olla nupp, millega saaks tuletellimust alustada.
+EOM sõnumi teksti ei kuvata mitte kuskil.
+FDC CFFi listis võiks olla FO kutsung.
+Kaardi pööramine ei reseti tagasi põhjasuunda.
+CFF formi SALVESTA nupu asemel EDASTA/TELLI.
+FO võiks kuidagi teada, kas sõnum on FDC-le kohale jõudnud.
+Kutsungit võiks saada seadetest vahetada.
+Seadetes Locationi input ei salvestu, kui sisestada andmed vales järjekorras.
+Seadetes võiksid järjekord olla tähtsuse järjekorras.
+CFFi tabelis lühendid on valesti.
+CFF formis pole millside max väärtust vaja kuvada.
+CFF formis peaks kuvama ka TJ vaatlus suuna.
+Sihtmärkide number hüppas 1004 pealt 1050 peale.
+Saad valida, milliste tulejuhtide sõnumeid näed
+Kaota kaardilt ära mõtetud tuleülesanded
+</note-content>
+</text><last-change-date>2021-05-02T12:21:49,744414Z</last-change-date><last-metadata-change-date>2021-05-02T12:21:49,745165Z</last-metadata-change-date><create-date>2021-05-02T09:07:38,022725Z</create-date><cursor-position>0</cursor-position><selection-bound-position>953</selection-bound-position><width>592</width><height>400</height></note>
+

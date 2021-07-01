@@ -6,15 +6,13 @@ Copy
 local ret_status=&quot;%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )&quot;
 PROMPT='${ret_status} %{$fg[cyan]%}%d%{$reset_color%} $(git_prompt_info)'
 
- 
-
-ZSH_THEME_GIT_PROMPT_PREFIX=&quot;%{$fg_bold[blue]%}git:(%{$fg[red]%}&quot;
+ZSH_THEME_<link:internal>GIT</link:internal>_PROMPT_PREFIX=&quot;%{$fg_bold[blue]%}<link:internal>git</link:internal>:(%{$fg[red]%}&quot;
 ZSH_THEME_GIT_PROMPT_SUFFIX=&quot;%{$reset_color%} &quot;
 ZSH_THEME_GIT_PROMPT_DIRTY=&quot;%{$fg[blue]%}) %{$fg[yellow]%}✗&quot;
 ZSH_THEME_GIT_PROMPT_CLEAN=&quot;%{$fg[blue]%})&quot;
 
 to
 
-sudo <link:url>~/.oh-my-zsh/themes/robbyrussell.zsh-theme</link:url></note-content>
-</text><last-change-date>2021-01-30T19:43:39,974881Z</last-change-date><last-metadata-change-date>2021-01-30T19:43:39,975370Z</last-metadata-change-date><create-date>2021-01-30T19:42:37,800240Z</create-date><cursor-position>432</cursor-position><selection-bound-position>432</selection-bound-position><width>450</width><height>400</height></note>
+sudo vi <link:url>~/.oh-my-zsh/themes/robbyrussell.zsh-theme</link:url></note-content>
+</text><last-change-date>2021-03-02T07:24:39,000000Z</last-change-date><last-metadata-change-date>2021-03-02T07:24:39,000000Z</last-metadata-change-date><create-date>2021-01-30T19:42:37,000000Z</create-date><cursor-position>381</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
 

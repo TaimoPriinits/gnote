@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Regolith</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Regolith
+
+<bold>Location of config file</bold>
+<link:url>~/.config/regolith/i3</link:url>
+
+<bold><size:huge>Keybinds</size:huge></bold>
+
+WIN+T (vertical/horizontal/tab view)
+
+WIN+space (app menu)
+
+WIN+number (new terminal window)
+
+WIN+shift+number (asigns number to window)
+
+WIN+ENTER (opens terminal)
+WIN+SHIFT+ENTER (opens browser)
+
+WIN+backspace (horisontal or vertical split on new window)
+
+SHIFT+WIN+Q (closes window)
+
+WIN+arrows (Choose active window)
+WIN+SHIFT+arrows (Change split)
+
+WIN + F (Fullscreen)
+WIN+SHIFT+F (Make floating window)
+WIN+R (+arrows) (resize window)
+
+CTRL+WIN+number (windows form 11 to 20)
+
+<bold><size:large>Install script</size:large></bold>
+sudo add-apt-repository ppa:regolith-<link:internal>linux</link:internal>/release
+sudo apt install regolith-desktop
+
+<bold><size:large>config</size:large></bold>
+mkdir -p <link:url>~/.config/regolith/i3</link:url>
+sudo apt install i3status
+restart</note-content>
+</text><last-change-date>2021-02-22T10:14:8,114605Z</last-change-date><last-metadata-change-date>2021-02-22T10:14:8,115327Z</last-metadata-change-date><create-date>2021-02-22T09:57:40,041449Z</create-date><cursor-position>103</cursor-position><selection-bound-position>-1</selection-bound-position><width>0</width><height>0</height></note>
+

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>New Note 1</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">New Note 1
+
+Kas see on nüüd intended, et kui FO teeb correction-i, siis ei genereerita enam FDC FM-i juurde järgmine sequence? Vaid peab tegema adjustmenti järgi, et see tekiks. Sellisel juhul võiks kohe adjustment-i ja correction-i kokku panna.
+Lisaks ma vaatan praegult, et kui adjustment-is muuta aimpoint-i koordinaate, siis FDC FM CALCULATE AIMPOINTS-i nupule vajutades kuvatakse ikka algsed koordinaadid. Üldiselt minuarust võiks kuvada alati viimased koordinaadid, siis on natuke rohkem läbinähtav mis koordinaatidele peale korrektuuri lastakse.</note-content>
+</text><last-change-date>2021-06-07T08:21:52,087922Z</last-change-date><last-metadata-change-date>2021-06-07T08:21:52,088365Z</last-metadata-change-date><create-date>2021-06-07T08:12:42,472777Z</create-date><cursor-position>552</cursor-position><selection-bound-position>552</selection-bound-position><width>450</width><height>400</height></note>
+

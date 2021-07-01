@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
 <note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>GIT</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">GIT
 
+<bold>Save username and password</bold>
+git config --global credential.helper store
+git pull
+
 <bold>When making bug report</bold>
 git log
 
@@ -9,5 +13,5 @@ git flow feature start feature-name
 
 <bold>Merging, go to father branch and merge wanted children branch</bold>
 git merge feature/children-branch-name</note-content>
-</text><last-change-date>2021-02-11T12:26:21,129167Z</last-change-date><last-metadata-change-date>2021-02-11T12:26:21,129461Z</last-metadata-change-date><create-date>2021-02-04T06:17:46,781398Z</create-date><cursor-position>188</cursor-position><selection-bound-position>-1</selection-bound-position><width>950</width><height>1158</height></note>
+</text><last-change-date>2021-03-04T12:45:30,000000Z</last-change-date><last-metadata-change-date>2021-03-04T12:45:30,000000Z</last-metadata-change-date><create-date>2021-02-04T06:17:46,000000Z</create-date><cursor-position>116</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
 

@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Pop OS Shortcuts</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Pop OS Shortcuts
+
+Snap window to left/right side of display
+Super + Ctrl + Left/Right arrow
+
+Close window
+Super+Q
+
+Toggle maximization state 
+Super+M
+
+Lock screen
+Super+Esc
+
+Log out
+Ctrl+Alt+Delete
+
+Show all aplications
+Super+A
+
+Launch terminal
+Super+T
+
+Launch web browser
+Super+B
+
+Home Folder
+Super+F
+
+Move window to upper/lower workspace
+Shift+Super+Up/Down
+
+Move to workspace above/below 
+Ctrl+Super+Up/Down</note-content>
+</text><last-change-date>2021-03-13T18:51:15,000000Z</last-change-date><last-metadata-change-date>2021-03-13T18:51:15,000000Z</last-metadata-change-date><create-date>2021-03-04T13:05:28,000000Z</create-date><cursor-position>91</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>Docusaurus</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">Docusaurus
+
+&lt;img src=&quot;../<link:internal>cypress</link:internal>/snapshots/TOORU.spec.ts/FOMAPPointTarget.snap.png&quot; alt=&quot;FOMAPPointTarget.snap.png&quot; width=&quot;15rem&quot; /&gt; 
+
+<bold>Make pdf</bold>
+yarn docusaurus start
+website must run in browser. Use URL in browser and assign pdf name
+npx docusaurus-pdf <link:url>http://localhost:3000/</link:url> kek1.pdf
+
+<bold>baseUrl</bold>
+<link:url>/documentation/develop/</link:url> process.env.DOCUSAURUS_BASE_URL
+
+<bold>Comment</bold>
+&lt;-- --&gt;</note-content>
+</text><last-change-date>2021-04-23T11:07:45,902113Z</last-change-date><last-metadata-change-date>2021-04-23T11:07:45,903229Z</last-metadata-change-date><create-date>2021-03-10T06:47:27,000000Z</create-date><cursor-position>234</cursor-position><selection-bound-position>284</selection-bound-position><width>450</width><height>400</height></note>
+

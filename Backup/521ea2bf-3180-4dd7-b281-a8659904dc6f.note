@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<note version="0.3" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size" xmlns="http://beatniksoftware.com/tomboy"><title>MellowPlayer</title><text xml:space="preserve"><note-content version="0.1" xmlns:link="http://beatniksoftware.com/tomboy/link" xmlns:size="http://beatniksoftware.com/tomboy/size">MellowPlayer
+
+Run
+flatpak run com.gitlab.ColinDuquesnoy.MellowPlayer
+Install
+flatpak install flathub com.gitlab.ColinDuquesnoy.MellowPlayer</note-content>
+</text><last-change-date>2021-04-22T07:34:15,062655Z</last-change-date><last-metadata-change-date>2021-04-22T07:34:15,062989Z</last-metadata-change-date><create-date>2021-04-22T05:13:29,824351Z</create-date><cursor-position>12</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
+
