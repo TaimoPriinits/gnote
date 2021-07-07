@@ -15,5 +15,5 @@ rm -rf <link:url>/pipeline/documentation/develop/</link:url>*
 
 scp -r <link:url>/home/taimopriinits/Dev/tooru-documentation/build/</link:url>* <link:url>tpriinits@172.16.117.109:/pipeline/documentation/develop/</link:url>
 </note-content>
-</text><last-change-date>2021-06-22T19:15:12,317820Z</last-change-date><last-metadata-change-date>2021-06-22T19:15:12,318296Z</last-metadata-change-date><create-date>2021-04-13T09:14:4,833905Z</create-date><cursor-position>290</cursor-position><selection-bound-position>406</selection-bound-position><width>450</width><height>400</height></note>
+</text><last-change-date>2021-06-22T19:15:12,317820Z</last-change-date><last-metadata-change-date>2021-06-22T19:15:12,318296Z</last-metadata-change-date><create-date>2021-04-13T09:14:4,833905Z</create-date><cursor-position>40</cursor-position><selection-bound-position>-1</selection-bound-position><width>450</width><height>400</height></note>
 
